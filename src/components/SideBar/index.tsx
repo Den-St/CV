@@ -72,7 +72,8 @@ export const SideBar = () => {
                 <SkillDirContainer>
                     <SkillHeader>Other:</SkillHeader>
                     <Skills>
-                        <Skill>React-hook-form</Skill>
+                        <Skill>Git, </Skill>
+                        <Skill>React-hook-form, </Skill>
                         <Skill>React-router-dom</Skill>
                     </Skills>
                 </SkillDirContainer>

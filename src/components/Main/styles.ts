@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
     background-color: #f9f9f9;
     padding-top: 90px;
+    padding-bottom: 90px;
+    /* box-sizing: border-box; */
     width: 100%;
 `;
 

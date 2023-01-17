@@ -1,7 +1,13 @@
-import './App.css'
+import { Normalize } from 'styled-normalize'
+import { Component } from './components/Component'
 
 function App() {
-  return <div>init</div>
+  document.title = 'Denis Stuenko CV';
+
+  return <>
+    <Normalize/>
+    <Component/>
+  </>
 }
 
 export default App

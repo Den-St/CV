@@ -1,10 +1,19 @@
 import styled from "styled-components";
+import { Media } from "../../assets/breakpoints";
 
 export const Container = styled.article`
     background-color: #f9f9f9;
     padding-top: 90px;
     padding-bottom: 90px;
-    width: 100%;
+    width: 70%;
+    max-width: 1100px;
+    box-sizing: border-box;
+    ${Media.down.m} {
+        width: 100%;
+        color:white;
+        background-color: #363638;
+        padding-top: 0;
+    }
 `;
 
 export const NameContainer = styled.header`
@@ -17,6 +26,12 @@ export const NameContainer = styled.header`
     background-color: #ececee;
     padding-left: 50px;
     box-sizing: border-box;
+    ${Media.down.m} {
+        display: none;
+        height: 100px;
+        gap: 7px;
+        padding-left: 20px;
+    }
 `;
 
 export const Name = styled.h1`
@@ -24,6 +39,10 @@ export const Name = styled.h1`
     font-weight: 500;
     letter-spacing: 2px;
     margin: 0;
+    ${Media.down.m} {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
 `;
 
 export const Location = styled.span`
@@ -36,6 +55,9 @@ export const Position = styled.h1`
     font-weight: 200;
     letter-spacing: 1px;
     margin: 0;
+    ${Media.down.m} {
+        font-size: 20px;
+    }
 `;
 
 export const MainContainer = styled.main`
@@ -45,6 +67,12 @@ export const MainContainer = styled.main`
     display: flex;
     flex-direction: column;
     gap: 30px;
+    ${Media.down.m} {
+        gap: 15px;
+        align-items: center;
+        padding-left: 0;
+        padding-top: 0;
+    }
 `;
 
 export const Header = styled.h2`
@@ -53,6 +81,9 @@ export const Header = styled.h2`
     padding-bottom: 3px;
     border-bottom: 1px solid black;
     margin: 15px 0;
+    ${Media.down.m} {
+        border-bottom: 1px solid white;
+    }
 `;
 
 export const LanguageContainer = styled.div`
@@ -64,16 +95,23 @@ export const LanguageContainer = styled.div`
 export const Language = styled.span`
     font-size: 20px;
     font-weight: 100;
+    ${Media.down.m} {
+        font-size: 18px;
+    }
 `;
 
 export const LanguageRating = styled.span`
     font-size: 22px;
+    ${Media.down.m} {
+        font-size: 20px;
+    }
 `;
 
 export const ItemContainer = styled.div`
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 80%;
+
 `;
 
 export const AboutMe = styled.p`
@@ -111,6 +149,9 @@ export const Link = styled.a`
     &:hover{
         text-decoration: underline;
     }
+    ${Media.down.m} {
+        color: white;
+    }
 `;
 
 export const ProjectName = styled.dt`
@@ -121,6 +162,9 @@ export const ProjectName = styled.dt`
     display: flex;
     align-items: center;
     gap: 5px;
+    ${Media.down.m} {
+        color: white;
+    }
 `;
 
 export const ProjectDescription = styled.dd`

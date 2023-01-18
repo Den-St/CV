@@ -1,10 +1,14 @@
-import { Avatar, AvatarContainer, Contact, ContactItemContainer, ContactLink, Container, Header, ItemContainer, Skill, SkillDirContainer, SkillHeader, Skills } from "./styles"
-import {GithubOutlined, MailOutlined, PhoneOutlined} from '@ant-design/icons';
+import { Avatar, AvatarContainer, Contact, ContactItemContainer, ContactLink, Container,Location, Header, ItemContainer, Name, NameContainer, Position, Skill, SkillDirContainer, SkillHeader, Skills, Break } from "./styles"
+import {EnvironmentOutlined, GithubOutlined, MailOutlined, PhoneOutlined} from '@ant-design/icons';
 
 export const SideBar = () => {
     return <Container>
         <AvatarContainer>
             <Avatar src=""/>
+            <NameContainer>
+                <Name>Denis Stuenko <Break/><Location><EnvironmentOutlined /> Odessa, Ukraine</Location></Name>
+                <Position>React Frontend-Developer</Position>
+            </NameContainer>
         </AvatarContainer>
         <ItemContainer>
             <Header>Contacts</Header>

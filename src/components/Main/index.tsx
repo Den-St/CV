@@ -119,9 +119,6 @@ export const Main = () => {
                                             NestJs
                                     </Technology>
                                     <Technology>
-                                            GraphQL
-                                    </Technology>
-                                    <Technology>
                                             Postgres
                                     </Technology>
                                 </Tecnologies>

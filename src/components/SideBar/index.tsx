@@ -15,7 +15,7 @@ export const SideBar = () => {
                 <GithubOutlined /> <ContactLink href="https://github.com/Den-St">https://github.com/Den-St</ContactLink>
             </ContactItemContainer>
             <ContactItemContainer>
-                <MailOutlined /> <Contact>stuenkden@gmail.com</Contact>
+                <MailOutlined /> <ContactLink href="mailto:stuenkden@gmail.com">stuenkden@gmail.com</ContactLink>
             </ContactItemContainer>
         </ItemContainer>
         

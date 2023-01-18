@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.article`
     background-color: #f9f9f9;
     padding-top: 90px;
     padding-bottom: 90px;
-    /* box-sizing: border-box; */
     width: 100%;
 `;
 
-export const NameContainer = styled.div`
+export const NameContainer = styled.header`
     width: 100%;
     height: 120px;
     display: flex;
@@ -39,8 +38,7 @@ export const Position = styled.h1`
     margin: 0;
 `;
 
-
-export const MainContainer = styled.div`
+export const MainContainer = styled.main`
     padding-left: 50px;
     padding-top: 50px;
     box-sizing: border-box;
@@ -49,11 +47,12 @@ export const MainContainer = styled.div`
     gap: 30px;
 `;
 
-export const Header = styled.h1`
+export const Header = styled.h2`
     font-size: 22px;
     font-weight: 100;
     padding-bottom: 3px;
     border-bottom: 1px solid black;
+    margin: 15px 0;
 `;
 
 export const LanguageContainer = styled.div`
@@ -83,15 +82,18 @@ export const AboutMe = styled.p`
     font-weight: 100;
 `;
 
-export const Projects = styled.div`
+export const Projects = styled.dl`
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding-left: 5px;
+    margin: 0;
 `;
 
-export const ProjectContainer = styled.div`
+export const ProjectContainer = styled.li`
     display: flex;
     flex-direction: column;
+    padding: 0;
 `;
 
 export const Links = styled.div`
@@ -111,7 +113,7 @@ export const Link = styled.a`
     }
 `;
 
-export const ProjectName = styled.h1`
+export const ProjectName = styled.dt`
     font-size: 20px;
     margin-bottom: 5px;
     margin: 0;
@@ -121,7 +123,7 @@ export const ProjectName = styled.h1`
     gap: 5px;
 `;
 
-export const ProjectDescription = styled.p`
+export const ProjectDescription = styled.dd`
     margin: 0;
     font-size: 16px;
     font-weight: 100;
@@ -133,12 +135,11 @@ export const Tecnologies = styled.ul`
     padding-left: 25px;
 `;
 
-
-
 export const Technology = styled.li`
 `;
 
-export const TechnologyHeader = styled.div`
+export const TechnologyHeader = styled.p`
     font-size: 18px;
     margin-top: 5px;
+    margin-bottom: 0;
 `;

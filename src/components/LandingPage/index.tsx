@@ -2,7 +2,7 @@ import { Main } from "../Main"
 import { SideBar } from "../SideBar"
 import { Container } from "./styles"
 
-export const Component = () => {
+export const LandingPage = () => {
     return <Container>
         <SideBar/>
         <Main/>

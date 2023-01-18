@@ -1,12 +1,12 @@
 import { Normalize } from 'styled-normalize'
-import { Component } from './components/Component'
+import { LandingPage } from './components/LandingPage'
 
 function App() {
   document.title = 'Denis Stuenko CV';
 
   return <>
     <Normalize/>
-    <Component/>
+    <LandingPage/>
   </>
 }
 

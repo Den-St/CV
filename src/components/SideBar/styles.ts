@@ -33,14 +33,15 @@ export const AvatarContainer = styled.header`
 `;
 
 export const NameContainer = styled.header`
-    display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #ececee;
     box-sizing: border-box;
+    gap: 5px;
+    padding-left: 0px;
+    display: none;
     ${Media.down.m} {
-        gap: 5px;
-        padding-left: 0px;
+        display: flex;
     }
 `;
 

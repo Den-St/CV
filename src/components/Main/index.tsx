@@ -124,6 +124,190 @@ export const Main = () => {
                                 </Tecnologies>
                         </ProjectDescription>
                     </ProjectContainer>
+                    <ProjectContainer>
+                        <ProjectName>1) Online-store</ProjectName>
+                        <Links>
+                            <Link href="https://github.com/Den-St/Online-store-client">
+                                client:https://github.com/Den-St/Online-store-client
+                            </Link>
+                            <Link href="https://github.com/Den-St/Online-store-server">
+                                server:https://github.com/Den-St/Online-store-server
+                            </Link>
+                        </Links>
+                        <ProjectDescription>
+                            For this project i wrote both client and server sides.
+                            <TechnologyHeader>Technologies that used for client side:</TechnologyHeader>
+                                <Tecnologies>
+                                    <Technology>
+                                            React
+                                    </Technology>
+                                    <Technology>
+                                            Recoil
+                                    </Technology>
+                                    <Technology>
+                                            Styled-Components
+                                    </Technology>
+                                    <Technology>
+                                            GraphQL
+                                    </Technology>
+                                    <Technology>
+                                            Ant-design
+                                    </Technology>
+                                </Tecnologies>
+                                <TechnologyHeader>Technologies that used for server side:</TechnologyHeader>
+                                <Tecnologies>
+                                    <Technology>
+                                    
+                                            NestJs
+                                        
+                                    </Technology>
+                                    <Technology>
+                                            GraphQL
+                                    </Technology>
+                                    <Technology>
+                                            Postgres
+                                    </Technology>
+                                </Tecnologies>
+                        </ProjectDescription>
+                    </ProjectContainer>
+                    <ProjectContainer>
+                        <ProjectName>1) Online-store</ProjectName>
+                        <Links>
+                            <Link href="https://github.com/Den-St/Online-store-client">
+                                client:https://github.com/Den-St/Online-store-client
+                            </Link>
+                            <Link href="https://github.com/Den-St/Online-store-server">
+                                server:https://github.com/Den-St/Online-store-server
+                            </Link>
+                        </Links>
+                        <ProjectDescription>
+                            For this project i wrote both client and server sides.
+                            <TechnologyHeader>Technologies that used for client side:</TechnologyHeader>
+                                <Tecnologies>
+                                    <Technology>
+                                            React
+                                    </Technology>
+                                    <Technology>
+                                            Recoil
+                                    </Technology>
+                                    <Technology>
+                                            Styled-Components
+                                    </Technology>
+                                    <Technology>
+                                            GraphQL
+                                    </Technology>
+                                    <Technology>
+                                            Ant-design
+                                    </Technology>
+                                </Tecnologies>
+                                <TechnologyHeader>Technologies that used for server side:</TechnologyHeader>
+                                <Tecnologies>
+                                    <Technology>
+                                    
+                                            NestJs
+                                        
+                                    </Technology>
+                                    <Technology>
+                                            GraphQL
+                                    </Technology>
+                                    <Technology>
+                                            Postgres
+                                    </Technology>
+                                </Tecnologies>
+                        </ProjectDescription>
+                    </ProjectContainer>
+                    <ProjectContainer>
+                        <ProjectName>1) Online-store</ProjectName>
+                        <Links>
+                            <Link href="https://github.com/Den-St/Online-store-client">
+                                client:https://github.com/Den-St/Online-store-client
+                            </Link>
+                            <Link href="https://github.com/Den-St/Online-store-server">
+                                server:https://github.com/Den-St/Online-store-server
+                            </Link>
+                        </Links>
+                        <ProjectDescription>
+                            For this project i wrote both client and server sides.
+                            <TechnologyHeader>Technologies that used for client side:</TechnologyHeader>
+                                <Tecnologies>
+                                    <Technology>
+                                            React
+                                    </Technology>
+                                    <Technology>
+                                            Recoil
+                                    </Technology>
+                                    <Technology>
+                                            Styled-Components
+                                    </Technology>
+                                    <Technology>
+                                            GraphQL
+                                    </Technology>
+                                    <Technology>
+                                            Ant-design
+                                    </Technology>
+                                </Tecnologies>
+                                <TechnologyHeader>Technologies that used for server side:</TechnologyHeader>
+                                <Tecnologies>
+                                    <Technology>
+                                    
+                                            NestJs
+                                        
+                                    </Technology>
+                                    <Technology>
+                                            GraphQL
+                                    </Technology>
+                                    <Technology>
+                                            Postgres
+                                    </Technology>
+                                </Tecnologies>
+                        </ProjectDescription>
+                    </ProjectContainer>
+                    <ProjectContainer>
+                        <ProjectName>1) Online-store</ProjectName>
+                        <Links>
+                            <Link href="https://github.com/Den-St/Online-store-client">
+                                client:https://github.com/Den-St/Online-store-client
+                            </Link>
+                            <Link href="https://github.com/Den-St/Online-store-server">
+                                server:https://github.com/Den-St/Online-store-server
+                            </Link>
+                        </Links>
+                        <ProjectDescription>
+                            For this project i wrote both client and server sides.
+                            <TechnologyHeader>Technologies that used for client side:</TechnologyHeader>
+                                <Tecnologies>
+                                    <Technology>
+                                            React
+                                    </Technology>
+                                    <Technology>
+                                            Recoil
+                                    </Technology>
+                                    <Technology>
+                                            Styled-Components
+                                    </Technology>
+                                    <Technology>
+                                            GraphQL
+                                    </Technology>
+                                    <Technology>
+                                            Ant-design
+                                    </Technology>
+                                </Tecnologies>
+                                <TechnologyHeader>Technologies that used for server side:</TechnologyHeader>
+                                <Tecnologies>
+                                    <Technology>
+                                    
+                                            NestJs
+                                        
+                                    </Technology>
+                                    <Technology>
+                                            GraphQL
+                                    </Technology>
+                                    <Technology>
+                                            Postgres
+                                    </Technology>
+                                </Tecnologies>
+                        </ProjectDescription>
+                    </ProjectContainer>
                 </Projects>
             </ItemContainer>
         </MainContainer>

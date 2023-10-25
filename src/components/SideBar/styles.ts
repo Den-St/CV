@@ -77,6 +77,8 @@ export const Avatar = styled.img`
     border-radius: 50%;
     border: 4px solid #cdcdd0;
     box-sizing: border-box;
+    background:white;
+    object-fit:contain;
     ${Media.down.m} {
         width: 90px;
         height: 90px;
@@ -111,60 +113,5 @@ export const Header = styled.h2`
     ${Media.down.m} {
         font-size: 20px;
         margin: 10px 0;
-    }
-`;
-
-export const Skills = styled.section`
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
-`;
-
-export const SkillDirContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-`;
-
-export const Skill = styled.p`
-    font-size: 16px;
-    font-weight:100;
-    color: #eaeaea;
-    margin: 0;
-`;
-
-export const SkillHeader = styled.h3`
-    font-size: 18px;
-    color:white;
-    margin: 0 0 3px 0;
-    ${Media.down.m} {
-        font-weight: 400;
-    }
-`;
-
-export const ContactItemContainer = styled.p`
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 0;
-    .anticon{
-        font-size: 25px;
-    }
-`;
-
-export const Contact = styled.p`
-    font-size: 18px;
-    font-weight: 100;
-    margin: 0;
-`;
-
-export const ContactLink = styled.a`
-    font-size: 18px;
-    font-weight: 100;
-    text-decoration: none;
-    color:white;
-    border-radius: 3px;
-    &:hover{
-        text-decoration: underline;
     }
 `;

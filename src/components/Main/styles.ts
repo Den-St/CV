@@ -14,6 +14,14 @@ export const Container = styled.article`
         background-color: #363638;
         padding-top: 0;
     }
+    ${Media.up.xxxl}{
+        width: 100%;
+        max-width: unset;
+    }
+    ${Media.up.xxxs}{
+        width: 100%;
+        max-width: unset;
+    }
 `;
 
 export const NameContainer = styled.header`

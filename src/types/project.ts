@@ -7,6 +7,6 @@ export type ProjectT = {
     description:string,
     technologies:{
         client:string[],
-        server:string[],
+        server?:string[],
     }
 }

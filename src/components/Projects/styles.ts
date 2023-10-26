@@ -4,7 +4,7 @@ import { Media } from "../../assets/breakpoints";
 export const ProjectsContainer = styled.dl`
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
     padding-left: 5px;
     margin: 0;
 `;
@@ -13,6 +13,7 @@ export const ProjectContainer = styled.li`
     display: flex;
     flex-direction: column;
     padding: 0;
+    gap:5px;
 `;
 
 export const Links = styled.div`

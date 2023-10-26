@@ -30,6 +30,7 @@ export const AvatarContainer = styled.header`
         height: 100px;
         justify-content: space-around;
     }
+
 `;
 
 export const NameContainer = styled.header`
@@ -42,6 +43,9 @@ export const NameContainer = styled.header`
     display: none;
     ${Media.down.m} {
         display: flex;
+    }
+    ${Media.up.xxxl} {
+        width: 100%;
     }
 `;
 

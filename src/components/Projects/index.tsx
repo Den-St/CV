@@ -22,9 +22,9 @@ export const Projects = () => {
                     </Technology>
                 )}
             </Tecnologies>
-            <TechnologyHeader>Technologies that used for client side:</TechnologyHeader>
+            {project.technologies.server?.length && <TechnologyHeader>Technologies that used for server side:</TechnologyHeader>}
             <Tecnologies>
-                {project.technologies.server.map(technology => 
+                {project.technologies.server?.map(technology => 
                     <Technology>
                         {technology}
                     </Technology>

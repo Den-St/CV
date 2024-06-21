@@ -1,4 +1,5 @@
 export type AboutMeT = {
     id:number,
-    text:string
+    text:string,
+    link?:string
 }

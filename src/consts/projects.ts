@@ -3,22 +3,21 @@ import { ProjectT } from "../types/project";
 export const projects:ProjectT[] = [
     {
         id:1,
-        name:'CellRoyale',
+        name:'CollegE-Journal',
         links:[
             {
                 name:'deployed site',
-                href:'https://den-st.github.io/CellRoyale/ '
+                href:'https://collegejournal.ovh/'
             },
             {
                 name:'client',
-                href:'https://github.com/Den-St/CellRoyale'
+                href:'https://github.com/Den-St/CollegE-Journal'
             },
         ],
-        description:'Web game.',
+        description:'E-Journal for college.',
         technologies:{
-            client:['React','Redux-Toolkit','Styled-Components',
-                    'Ant design', 'React-hook-form', 'React-router-dom'],
-            server:['Firebase Firestore']
+            client:['React', 'Zustand','React-hook-form',
+                    'React-router-dom', 'Ant-design'],
         }
     },
     {
@@ -43,21 +42,22 @@ export const projects:ProjectT[] = [
     },
     {
         id:3,
-        name:'CollegE-Journal',
+        name:'CellRoyale',
         links:[
             {
                 name:'deployed site',
-                href:'https://den-st.github.io/CollegE-Journal'
+                href:'https://den-st.github.io/CellRoyale/ '
             },
             {
                 name:'client',
-                href:'https://github.com/Den-St/CollegE-Journal'
+                href:'https://github.com/Den-St/CellRoyale'
             },
         ],
-        description:'E-Journal for college.',
+        description:'Web game.',
         technologies:{
-            client:['React', 'Zustand','React-hook-form',
-                    'React-router-dom', 'Ant-design'],
+            client:['React','Redux-Toolkit','Styled-Components',
+                    'Ant design', 'React-hook-form', 'React-router-dom'],
+            server:['Firebase Firestore']
         }
     },
     {
